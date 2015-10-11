@@ -1,0 +1,132 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.top-content {
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    text-align: center;
+    background: transparent;
+}
+
+#bg-Vid {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: -100;
+}
+
+#brand {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#brand img {
+    height: 50px;
+}
+
+#searchField {
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+}
+
+#searchButton {
+    display: inline-block;
+    color: white;
+    margin-left: -4px;
+    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(213,0,25,1);
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+
+#searchButton:hover {
+    color: rgba(213,0,25,1);
+    background-color: white;
+}
+
+.searchList {
+    background-color: transparent;
+    width: 438px;
+}
+
+.searchList tr {
+    display: block;
+    background-color: white;
+    width: 440px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.searchList tr:hover {
+    color: white;
+    background-color: rgba(213,0,25,1);
+}
+
+.searchList tr td {
+    padding-left: 10px;
+}
+
+#searchListCompany {
+    margin-top: -5px;
+    margin-left: -1px;
+}
+
+.search-result table {
+    text-align: center;
+    clear: both;
+}
+
+.input-search {
+    margin: auto;
+    width: 440px;
+    height: 300px;
+    overflow-y: hidden;
+}
+
+.footer-text {
+    text-align: center;
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    width: 100%;
+}
+
+#admin {
+    position: fixed;
+    bottom: 100px;
+    right: -305px;
+    height: 40px;
+    width: 350px;
+    background-color: rgba(213,0,25,0.9);
+    color: white;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+#admin i {
+    margin-top: 4px;
+    margin-left: 4px;
+    font-size: 30px;
+}
+
+#admin a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    z-index: 100;
+}
+
+#admin #link {
+    position: inherit;
+    margin-top: -25px;
+    margin-left: 180px;
+}

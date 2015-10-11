@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+}
+
+.admin-navi {
+    color: white;
+    width: 100%;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+    background: #cfe7fa; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cfe7fa 0%, #6393c1 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cfe7fa), color-stop(100%,#6393c1)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #cfe7fa 0%,#6393c1 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+
+}
+
+.admin-navi ul {
+    list-style-type: none;
+    
+    margin-left: -50px;
+}
+
+.admin-navi ul li {
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+    border-right: 1px solid white;
+    width: 100px;
+    height: 40px;
+    transition: 0.2s all ease;
+    cursor: pointer;
+}
+
+.admin-navi ul li:hover {
+    background-color: #6393c1;
+}
+
+
+.admin-navi ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    width: 100%;
+}
+
+.content tr:nth-child(even) {
+    background-color: #d3e8ff;
+}
+
+.tablehead {
+    width: 100%;
+}
+
+.tablehead th {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+    background: #cfe7fa; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cfe7fa 0%, #6393c1 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cfe7fa), color-stop(100%,#6393c1)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #cfe7fa 0%,#6393c1 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+}
+
+.left-nav {
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    background-color: red;
+}
+
+.description {
+    margin-left: 15px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.editBtn {
+    cursor: pointer;
+    color: #286090;
+}
+
+.editBtn:hover {
+    color: white;
+    background-color: #286090;
+}
+
+.add {
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 100px;
+}
+
+/*FOMR CSS*/
+
+.form-body strong {
+    display: inline-block;
+    width: 100px;
+}
+
+.form-body input{
+    width: 300px;
+    margin-top: 10px;
+}

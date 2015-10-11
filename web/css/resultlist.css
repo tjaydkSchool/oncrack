@@ -1,0 +1,111 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.data {
+    width: 100%;
+}
+
+.navi {
+    height: 70px;
+    background-color: #333333;
+}
+
+.information {
+    margin-top: 100px;
+}
+
+#navi-brand img {
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+/*SEARCH*/
+
+#searchField {
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+}
+
+#searchButton {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    margin-left: -4px;
+    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(213,0,25,1);
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+
+#searchButton:hover {
+    color: rgba(213,0,25,1);
+    background-color: white;
+}
+
+.searchList {
+    background-color: transparent;
+    width: 438px;
+}
+
+.searchList tr {
+    display: block;
+    background-color: white;
+    width: 440px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.searchList tr:hover {
+    color: white;
+    background-color: rgba(213,0,25,1);
+}
+
+.searchList tr td {
+    padding-left: 10px;
+}
+
+#searchListCompany {
+    margin-top: -5px;
+    margin-left: -1px;
+}
+
+.search-result table {
+    text-align: center;
+    clear: both;
+}
+
+.input-search {
+    position: absolute;
+    top: -15px;
+    right: 40px;
+    width: 440px;
+    height: 300px;
+    overflow-y: hidden;
+    z-index: 1000;
+}
+
+.info-content {
+    margin-top: 100px;
+}
+
+
+.info-content table tr {
+    border-bottom: 1px solid #cccccc;
+}
+
+
+.info-content table tr:hover {
+    background-color: rgba(213,0,25,1);
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
